@@ -1,21 +1,49 @@
-<<<<<<< HEAD
-# React + Vite
+# TinyLink - URL Shortener Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+TinyLink is a full stack URL shortener application that allows users to convert long URLs into short, easy-to-share links. It includes both frontend and backend integration.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Tech Stack
+- Frontend: HTML, CSS, JavaScript (or React.js if used)
+- Backend: Spring Boot, REST APIs
+- Database: MySQL
+- Tools: Postman, Git, GitHub
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
+- Shorten long URLs into unique short links
+- Redirect short URLs to original URLs
+- Backend API for URL creation and retrieval
+- Frontend interface for user interaction
+- Database storage for URL mapping
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# tinyLink
-tinyLink
->>>>>>> ac0e1f4f4668c70029d792a99f8e3e8e58234699
+## 🧩 Architecture
+- Frontend: User interface for URL input and display
+- Backend: Spring Boot REST API service
+- Database: MySQL for storing URL mappings
+- API Communication between frontend and backend
+
+---
+
+## 🔗 API Endpoints (Example)
+- POST /api/url/shorten → Create short URL  
+- GET /{shortUrl} → Redirect to original URL  
+
+---
+
+## ▶️ How to Run
+1. Clone repository  
+2. Setup MySQL database  
+3. Run Spring Boot backend  
+4. Open frontend in browser  
+5. Connect frontend with backend APIs  
+
+---
+
+## 👨‍💻 Author
+Sailakshmi Sirangi
