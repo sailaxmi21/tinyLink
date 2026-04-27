@@ -6,7 +6,7 @@ TinyLink is a full stack URL shortener application that allows users to convert 
 ---
 
 ## ⚙️ Tech Stack
-- Frontend: HTML, CSS, JavaScript (or React.js if used)
+- Frontend:  React.js 
 - Backend: Spring Boot, REST APIs
 - Database: MySQL
 - Tools: Postman, Git, GitHub
